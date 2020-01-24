@@ -154,9 +154,13 @@ main {
         color: #eece1a;
         transition: all .7s ease-out; }
   main#home {
+    min-height: 100%;
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
+  main#work, main#contact, main#about {
+    height: unset;
+    width: auto; }
 
 .about-info {
   display: grid;
