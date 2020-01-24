@@ -45,17 +45,17 @@ $background-opacity: .7;
     }
 }
 @mixin mediaMd {
-    @media screen and (max-width: 768px) {
+    @media screen and (min-width: 501px) and (max-width: 768px) {
         @content;
     }
 }
 @mixin mediaLg {
-    @media screen and (min-windth: 769px) and (max-width: 1170px) {
+    @media screen and (min-width: 769px) and (max-width: 1170) {
         @content;
     }
 }
 @mixin mediaXl {
-    @media screen and (min-windth: 1171px) {
+    @media screen and (min-width: 1171px) {
         @content;
     }
 }
